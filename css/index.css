@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+
+.minicircle {
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+    background-image: url('../images/bmwicon.png');
+    background-size: contain;
+    height: 65px;
+    width: 65px;
+    top: -40px;
+    left: -40px;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+.main {
+    background-color: black;
+    position: relative;
+}
+
+
+
+
+
+/* NAV BAR CSS START */
+.nav {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-family: "Play", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    left: 10%;
+    padding: 1vw;
+    border-bottom: 1px solid rgba(209, 208, 208, 0.795);
+    justify-content: space-between;
+    position: absolute;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    padding: 0px 5px;
+    font-size: 1.8em;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+
+.nav-items li{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.nav-items a{
+    padding: 0.75em;
+    font-size: large;
+}
+
+.nav-end{
+    display: flex;
+    justify-content: center;   
+}
+
+.nav-end-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+}
+
+.nav-end-items a{
+    margin-inline: 0.5vw;
+}
+
+/* NAV BAR CSS END */
+
+
+
+
+/* HERO CSS START */
+.hero{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* HERO CSS END */
+
+
+
+
+
+/* LATEST CAR CSS START */
+.latest-car{
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/bmwxm1.jpg");
+    background-size: cover;
+    height: fit-content;
+}
+
+.latest-car-container{
+    backdrop-filter: blur(2em);
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    border-radius: 1em;
+    border: 2px solid rgba(128, 128, 128, 0.568);
+    padding: 5em;
+}
+
+.latest-car-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* LATEST CAR CSS END */
+
+/* COLLAGE CSS START */
+.collage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.collage-cont{
+    display: flex;
+    width: 100%;
+}
+
+.collage-item{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid white;
+}
+/* COLLAGE CSS END */
+
+.bounding {
+    overflow: hidden;
+    height: fit-content;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.boundingelem {
+    transform: translateY(120%);
+}
+
+/* grid grid-cols-3 absolute bg-transparent w-[80%] z-50 left-[10%] text-white p-5 z-10 border-solid border-b-[1px] border-gray-500 */
+
